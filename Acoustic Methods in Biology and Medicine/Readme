@@ -1,0 +1,45 @@
+This project was developed as part of the Acoustic Methods in Engineering and Medicine course. It focuses on digital signal processing, spectral analysis, and automated classification of acoustic signals for technical or medical applications.
+
+Project Overview
+The repository contains a comprehensive pipeline for analyzing audio data, ranging from raw signal visualization to machine learning-based classification. The goal is to identify patterns in acoustic signals using time-frequency representations and spectral features.
+
+Key Features
+Signal Preprocessing: Loading, normalizing, and segmenting audio files for analysis.
+
+Time-Frequency Analysis: * Generation of Spectrograms using Short-Time Fourier Transform (STFT).
+
+Visualization of raw waveforms in the time domain.
+
+Feature Extraction:
+
+Calculation of Mel-Frequency Cepstral Coefficients (MFCCs).
+
+Power Spectral Density (PSD) analysis to examine frequency distribution.
+
+Classification and Evaluation:
+
+Implementation of a classifier to distinguish between different signal classes.
+
+Performance evaluation using Confusion Matrices and accuracy metrics.
+
+Tech Stack
+Language: Python 3.x
+
+Libraries:
+
+librosa: For audio analysis and feature extraction.
+
+numpy & scipy: For signal processing and matrix operations.
+
+matplotlib & seaborn: For data visualization and plotting results.
+
+scikit-learn: For machine learning model implementation.
+
+Results
+The project provides visual insights into acoustic data, including:
+
+Spectrograms: Showing how frequency content evolves over time.
+
+MFCC Heatmaps: Representing the unique spectral "fingerprint" of the audio samples.
+
+Confusion Matrix: Illustrating the precision and recall of the classification model across different categories.
