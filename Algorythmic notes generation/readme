@@ -2,18 +2,11 @@ LilyPond Procedural Melody Generator
 A Python-based algorithmic composition tool that generates randomized musical scores in LilyPond format. The script uses weighted probabilities for intervals, rhythms, and rests to create unique melodies within a user-defined pitch range.
 
 Features
-Algorithmic Composition: Generates melodies based on interval steps (up/down) and weighted probabilities.
-
-LilyPond Integration: Automatically exports sequences to a .ly file and invokes the LilyPond compiler to produce PDF/MIDI output.
-
-Flexible Constraints: Users can define:
-
-Time signature and number of measures.
-
-Octave range (from sub-contra to four-line octave).
-
-Specific pitch boundaries.
-
-Rest/Pause probability.
-
-Dynamic Naming: Uses the Faker library to generate unique, abstract titles for each piece.
+  Algorithmic Composition: Generates melodies based on interval steps (up/down) and weighted probabilities.
+  LilyPond Integration: Automatically exports sequences to a .ly file and invokes the LilyPond compiler to produce PDF/MIDI output.
+  Flexible Constraints: Users can define:
+  Time signature and number of measures.
+  Octave range (from sub-contra to four-line octave).
+  Specific pitch boundaries.
+  Rest/Pause probability.
+  Dynamic Naming: Uses the Faker library to generate unique, abstract titles for each piece.
